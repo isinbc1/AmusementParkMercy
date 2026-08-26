@@ -83,7 +83,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Аттракцион</name>
+    <name>Номенклатура</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -91,14 +91,14 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Аттракцион</segments>
+      <segments>Объект.Номенклатура</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
-      <name>АттракционПриИзменении</name>
+      <name>НоменклатураПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>АттракционРасширеннаяПодсказка</name>
+      <name>НоменклатураРасширеннаяПодсказка</name>
       <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -108,7 +108,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>АттракционКонтекстноеМеню</name>
+      <name>НоменклатураКонтекстноеМеню</name>
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>

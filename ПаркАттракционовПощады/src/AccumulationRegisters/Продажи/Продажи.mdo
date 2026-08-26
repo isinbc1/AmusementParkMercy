@@ -36,10 +36,10 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="9cd833e4-0c19-44d1-b32e-c30c567075c7">
-    <name>Аттракцион</name>
+    <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>
-      <value>Аттракцион</value>
+      <value>Вид аттракциона</value>
     </synonym>
     <type>
       <types>CatalogRef.Аттракционы</types>
