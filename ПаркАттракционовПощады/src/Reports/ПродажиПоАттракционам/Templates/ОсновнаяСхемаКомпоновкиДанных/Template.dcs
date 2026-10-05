@@ -5,7 +5,7 @@
 		<dataSourceType>Local</dataSourceType>
 	</dataSource>
 	<dataSet xsi:type="DataSetQuery">
-		<name>НаборДанных1</name>
+		<name>ОтчётПродажиПоАттракционам</name>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ВидАттракциона</dataPath>
 			<field>ВидАттракциона</field>
@@ -16,6 +16,14 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаОборот</dataPath>
 			<field>СуммаОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
